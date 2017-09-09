@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+IPDEFTTL	/usr/include/linux/ip.h	68;"	d
+IPOPT_CIPSO	/usr/include/linux/ip.h	60;"	d
+IPOPT_CLASS	/usr/include/linux/ip.h	47;"	d
+IPOPT_CLASS_MASK	/usr/include/linux/ip.h	43;"	d
+IPOPT_CONTROL	/usr/include/linux/ip.h	50;"	d
+IPOPT_COPIED	/usr/include/linux/ip.h	46;"	d
+IPOPT_COPY	/usr/include/linux/ip.h	42;"	d
+IPOPT_END	/usr/include/linux/ip.h	55;"	d
+IPOPT_EOL	/usr/include/linux/ip.h	76;"	d
+IPOPT_LSRR	/usr/include/linux/ip.h	58;"	d
+IPOPT_MEASUREMENT	/usr/include/linux/ip.h	52;"	d
+IPOPT_MINOFF	/usr/include/linux/ip.h	73;"	d
+IPOPT_NOOP	/usr/include/linux/ip.h	56;"	d
+IPOPT_NOP	/usr/include/linux/ip.h	75;"	d
+IPOPT_NUMBER	/usr/include/linux/ip.h	48;"	d
+IPOPT_NUMBER_MASK	/usr/include/linux/ip.h	44;"	d
+IPOPT_OFFSET	/usr/include/linux/ip.h	72;"	d
+IPOPT_OLEN	/usr/include/linux/ip.h	71;"	d
+IPOPT_OPTVAL	/usr/include/linux/ip.h	70;"	d
+IPOPT_RA	/usr/include/linux/ip.h	64;"	d
+IPOPT_RESERVED1	/usr/include/linux/ip.h	51;"	d
+IPOPT_RESERVED2	/usr/include/linux/ip.h	53;"	d
+IPOPT_RR	/usr/include/linux/ip.h	61;"	d
+IPOPT_SEC	/usr/include/linux/ip.h	57;"	d
+IPOPT_SID	/usr/include/linux/ip.h	62;"	d
+IPOPT_SSRR	/usr/include/linux/ip.h	63;"	d
+IPOPT_TIMESTAMP	/usr/include/linux/ip.h	59;"	d
+IPOPT_TS	/usr/include/linux/ip.h	77;"	d
+IPOPT_TS_PRESPEC	/usr/include/linux/ip.h	81;"	d
+IPOPT_TS_TSANDADDR	/usr/include/linux/ip.h	80;"	d
+IPOPT_TS_TSONLY	/usr/include/linux/ip.h	79;"	d
+IPTOS_LOWDELAY	/usr/include/linux/ip.h	24;"	d
+IPTOS_MINCOST	/usr/include/linux/ip.h	27;"	d
+IPTOS_PREC	/usr/include/linux/ip.h	30;"	d
+IPTOS_PREC_CRITIC_ECP	/usr/include/linux/ip.h	33;"	d
+IPTOS_PREC_FLASH	/usr/include/linux/ip.h	35;"	d
+IPTOS_PREC_FLASHOVERRIDE	/usr/include/linux/ip.h	34;"	d
+IPTOS_PREC_IMMEDIATE	/usr/include/linux/ip.h	36;"	d
+IPTOS_PREC_INTERNETCONTROL	/usr/include/linux/ip.h	32;"	d
+IPTOS_PREC_MASK	/usr/include/linux/ip.h	29;"	d
+IPTOS_PREC_NETCONTROL	/usr/include/linux/ip.h	31;"	d
+IPTOS_PREC_PRIORITY	/usr/include/linux/ip.h	37;"	d
+IPTOS_PREC_ROUTINE	/usr/include/linux/ip.h	38;"	d
+IPTOS_RELIABILITY	/usr/include/linux/ip.h	26;"	d
+IPTOS_THROUGHPUT	/usr/include/linux/ip.h	25;"	d
+IPTOS_TOS	/usr/include/linux/ip.h	23;"	d
+IPTOS_TOS_MASK	/usr/include/linux/ip.h	22;"	d
+IPV4_BEET_PHMAXLEN	/usr/include/linux/ip.h	83;"	d
+IPVERSION	/usr/include/linux/ip.h	66;"	d
+MAXTTL	/usr/include/linux/ip.h	67;"	d
+MAX_IPOPTLEN	/usr/include/linux/ip.h	74;"	d
+_LINUX_IP_H	/usr/include/linux/ip.h	18;"	d
+auth_data	/usr/include/linux/ip.h	/^	__u8  auth_data[0];	\/* Variable len but >=4. Mind the 64 bit alignment! *\/$/;"	m	struct:ip_auth_hdr	access:public
+check	/usr/include/linux/ip.h	/^	__sum16	check;$/;"	m	struct:iphdr	access:public
+cpi	/usr/include/linux/ip.h	/^	__be16 cpi;$/;"	m	struct:ip_comp_hdr	access:public
+daddr	/usr/include/linux/ip.h	/^	__be32	daddr;$/;"	m	struct:iphdr	access:public
+enc_data	/usr/include/linux/ip.h	/^	__u8  enc_data[0];	\/* Variable len but >=8. Mind the 64 bit alignment! *\/$/;"	m	struct:ip_esp_hdr	access:public
+flags	/usr/include/linux/ip.h	/^	__u8 flags;$/;"	m	struct:ip_comp_hdr	access:public
+frag_off	/usr/include/linux/ip.h	/^	__be16	frag_off;$/;"	m	struct:iphdr	access:public
+hdrlen	/usr/include/linux/ip.h	/^	__u8  hdrlen;		\/* This one is measured in 32 bit units! *\/$/;"	m	struct:ip_auth_hdr	access:public
+hdrlen	/usr/include/linux/ip.h	/^	__u8 hdrlen;$/;"	m	struct:ip_beet_phdr	access:public
+id	/usr/include/linux/ip.h	/^	__be16	id;$/;"	m	struct:iphdr	access:public
+ihl	/usr/include/linux/ip.h	/^	__u8	ihl:4,$/;"	m	struct:iphdr	access:public
+ip_auth_hdr	/usr/include/linux/ip.h	/^struct ip_auth_hdr {$/;"	s
+ip_auth_hdr::auth_data	/usr/include/linux/ip.h	/^	__u8  auth_data[0];	\/* Variable len but >=4. Mind the 64 bit alignment! *\/$/;"	m	struct:ip_auth_hdr	access:public
+ip_auth_hdr::hdrlen	/usr/include/linux/ip.h	/^	__u8  hdrlen;		\/* This one is measured in 32 bit units! *\/$/;"	m	struct:ip_auth_hdr	access:public
+ip_auth_hdr::nexthdr	/usr/include/linux/ip.h	/^	__u8  nexthdr;$/;"	m	struct:ip_auth_hdr	access:public
+ip_auth_hdr::reserved	/usr/include/linux/ip.h	/^	__be16 reserved;$/;"	m	struct:ip_auth_hdr	access:public
+ip_auth_hdr::seq_no	/usr/include/linux/ip.h	/^	__be32 seq_no;		\/* Sequence number *\/$/;"	m	struct:ip_auth_hdr	access:public
+ip_auth_hdr::spi	/usr/include/linux/ip.h	/^	__be32 spi;$/;"	m	struct:ip_auth_hdr	access:public
+ip_beet_phdr	/usr/include/linux/ip.h	/^struct ip_beet_phdr {$/;"	s
+ip_beet_phdr::hdrlen	/usr/include/linux/ip.h	/^	__u8 hdrlen;$/;"	m	struct:ip_beet_phdr	access:public
+ip_beet_phdr::nexthdr	/usr/include/linux/ip.h	/^	__u8 nexthdr;$/;"	m	struct:ip_beet_phdr	access:public
+ip_beet_phdr::padlen	/usr/include/linux/ip.h	/^	__u8 padlen;$/;"	m	struct:ip_beet_phdr	access:public
+ip_beet_phdr::reserved	/usr/include/linux/ip.h	/^	__u8 reserved;$/;"	m	struct:ip_beet_phdr	access:public
+ip_comp_hdr	/usr/include/linux/ip.h	/^struct ip_comp_hdr {$/;"	s
+ip_comp_hdr::cpi	/usr/include/linux/ip.h	/^	__be16 cpi;$/;"	m	struct:ip_comp_hdr	access:public
+ip_comp_hdr::flags	/usr/include/linux/ip.h	/^	__u8 flags;$/;"	m	struct:ip_comp_hdr	access:public
+ip_comp_hdr::nexthdr	/usr/include/linux/ip.h	/^	__u8 nexthdr;$/;"	m	struct:ip_comp_hdr	access:public
+ip_esp_hdr	/usr/include/linux/ip.h	/^struct ip_esp_hdr {$/;"	s
+ip_esp_hdr::enc_data	/usr/include/linux/ip.h	/^	__u8  enc_data[0];	\/* Variable len but >=8. Mind the 64 bit alignment! *\/$/;"	m	struct:ip_esp_hdr	access:public
+ip_esp_hdr::seq_no	/usr/include/linux/ip.h	/^	__be32 seq_no;		\/* Sequence number *\/$/;"	m	struct:ip_esp_hdr	access:public
+ip_esp_hdr::spi	/usr/include/linux/ip.h	/^	__be32 spi;$/;"	m	struct:ip_esp_hdr	access:public
+iphdr	/usr/include/linux/ip.h	/^struct iphdr {$/;"	s
+iphdr::check	/usr/include/linux/ip.h	/^	__sum16	check;$/;"	m	struct:iphdr	access:public
+iphdr::daddr	/usr/include/linux/ip.h	/^	__be32	daddr;$/;"	m	struct:iphdr	access:public
+iphdr::frag_off	/usr/include/linux/ip.h	/^	__be16	frag_off;$/;"	m	struct:iphdr	access:public
+iphdr::id	/usr/include/linux/ip.h	/^	__be16	id;$/;"	m	struct:iphdr	access:public
+iphdr::ihl	/usr/include/linux/ip.h	/^	__u8	ihl:4,$/;"	m	struct:iphdr	access:public
+iphdr::protocol	/usr/include/linux/ip.h	/^	__u8	protocol;$/;"	m	struct:iphdr	access:public
+iphdr::saddr	/usr/include/linux/ip.h	/^	__be32	saddr;$/;"	m	struct:iphdr	access:public
+iphdr::tos	/usr/include/linux/ip.h	/^	__u8	tos;$/;"	m	struct:iphdr	access:public
+iphdr::tot_len	/usr/include/linux/ip.h	/^	__be16	tot_len;$/;"	m	struct:iphdr	access:public
+iphdr::ttl	/usr/include/linux/ip.h	/^	__u8	ttl;$/;"	m	struct:iphdr	access:public
+iphdr::version	/usr/include/linux/ip.h	/^		version:4;$/;"	m	struct:iphdr	access:public
+nexthdr	/usr/include/linux/ip.h	/^	__u8  nexthdr;$/;"	m	struct:ip_auth_hdr	access:public
+nexthdr	/usr/include/linux/ip.h	/^	__u8 nexthdr;$/;"	m	struct:ip_beet_phdr	access:public
+nexthdr	/usr/include/linux/ip.h	/^	__u8 nexthdr;$/;"	m	struct:ip_comp_hdr	access:public
+padlen	/usr/include/linux/ip.h	/^	__u8 padlen;$/;"	m	struct:ip_beet_phdr	access:public
+protocol	/usr/include/linux/ip.h	/^	__u8	protocol;$/;"	m	struct:iphdr	access:public
+reserved	/usr/include/linux/ip.h	/^	__be16 reserved;$/;"	m	struct:ip_auth_hdr	access:public
+reserved	/usr/include/linux/ip.h	/^	__u8 reserved;$/;"	m	struct:ip_beet_phdr	access:public
+saddr	/usr/include/linux/ip.h	/^	__be32	saddr;$/;"	m	struct:iphdr	access:public
+seq_no	/usr/include/linux/ip.h	/^	__be32 seq_no;		\/* Sequence number *\/$/;"	m	struct:ip_auth_hdr	access:public
+seq_no	/usr/include/linux/ip.h	/^	__be32 seq_no;		\/* Sequence number *\/$/;"	m	struct:ip_esp_hdr	access:public
+spi	/usr/include/linux/ip.h	/^	__be32 spi;$/;"	m	struct:ip_auth_hdr	access:public
+spi	/usr/include/linux/ip.h	/^	__be32 spi;$/;"	m	struct:ip_esp_hdr	access:public
+tos	/usr/include/linux/ip.h	/^	__u8	tos;$/;"	m	struct:iphdr	access:public
+tot_len	/usr/include/linux/ip.h	/^	__be16	tot_len;$/;"	m	struct:iphdr	access:public
+ttl	/usr/include/linux/ip.h	/^	__u8	ttl;$/;"	m	struct:iphdr	access:public
+version	/usr/include/linux/ip.h	/^		version:4;$/;"	m	struct:iphdr	access:public
